@@ -2,7 +2,10 @@ module access-to-remote-docker
 
 go 1.23.2
 
-require github.com/docker/docker v27.3.1+incompatible
+require (
+	github.com/docker/docker v27.3.1+incompatible
+	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
+)
 
 require (
 	github.com/Microsoft/go-winio v0.4.14 // indirect
